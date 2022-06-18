@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="utils\FileTracingService.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\TracingService.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\Vector2DUtils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\VectorUtils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Board.h" />
+    <ClInclude Include="BoardSolver.h" />
+    <ClInclude Include="BoardValidator.h" />
+    <ClInclude Include="BruteforceStrategy.h" />
+    <ClInclude Include="FillSubboardsStrategy.h" />
+    <ClInclude Include="ISolvingStrategy.h" />
+    <ClInclude Include="SmartCleaner.h" />
+    <ClInclude Include="TheOnlyPossibilityStrategy.h" />
+    <ClInclude Include="Types.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{ab6e07f3-de48-4678-8e62-786c5b6f681b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+</Project>
